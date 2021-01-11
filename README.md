@@ -28,5 +28,5 @@ Explanation of the details:
 
 To start the game -> Click the Right mouse button and press start.
 
-# **Watch Example on Youtube**
+# **Watch an Example on Youtube**
 [![image](https://user-images.githubusercontent.com/59745744/104175998-9a020b80-540f-11eb-8574-3bd51c9912be.png)](https://www.youtube.com/watch?v=XCHz3P38w4I&ab_channel=TomerDwek)
