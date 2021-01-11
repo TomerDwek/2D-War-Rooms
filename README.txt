@@ -1,21 +1,30 @@
-Tomer Dwek - 313229486
+Tomer Dwek
 
-To see the details about the soldier -> Click the left mouse button.
+A game I built as a final project in an artificial intelligence course.
+The are 2 types of teams - Cyan team and Olive teams. 
+Each team has two soldiers starting in a random room on the map (The soldiers from the same team begin in the same room).
+There are 2 health points on the map marked in light green and 2 ammo points marked in brown.
+The black dots are shots fired by the soldiers.
+The black dots that explode are grenades thrown by the soldiers.
+
+Each soldier begin with 100 health points, 20 bullets and 5 grenades.
+All the steps that the soldiers perform are done by A* algorithm.
+
+Game rules:
+1) Search for health points if soldier does not have enough
+2) Search for ammo if soldier does not have enough
+3) When the opponent is in the same room:
+	3.1) Search for cover while attacking.
+	3.2) Attacking rules:
+		3.2.1) Throw grenade when the soldier or opponent soldier is behind a shelter
+		3.2.2) Otherwise Shoot
+4) Move to random room
+
+To see the legend of the soldiers -> Click the left mouse button.
 Explanation of the details: 
 	H = Health
-	B = Number of bullets
-	G = Number of grenades
+	B = Current bullets ammo
+	G = Current grenades ammo
 	R = Current room number
 
 To start the game -> Click the Right mouse button and press start.
-
-Game's progress:
-1) Search for health points if soldier does not have enough
-2) Search for ammo if soldier does not have enough
-3) When the opponent is in the room:
-	3.1) Attack:
-		3.1.1) Throw grenade when the soldier or opponent
-			is behind a shelter
-		3.1.2) Otherwise Shoot
-	3.2) Search for cover while attacking
-4) Move to random room
