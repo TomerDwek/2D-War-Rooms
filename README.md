@@ -2,7 +2,8 @@
 A game I built as a final project in an artificial intelligence course.  
 The are 2 types of teams - Cyan team and Olive teams.  
 Each team has two soldiers starting in a random room on the map (The soldiers from the same team begin in the same room).  
-There are 2 health points on the map marked in light green and 2 ammo points marked in brown.  
+There are 2 health points on the map marked in light green and 2 ammo points marked in brown.
+The black shapes in the rooms are shelters.  
 The black dots are shots fired by the soldiers.  
 The black dots that explode are grenades thrown by the soldiers.  
 
